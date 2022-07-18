@@ -20,7 +20,7 @@ Curently, there are two major challenges regarding training data: Volume and low
 - [Transfer learning](https://en.wikipedia.org/wiki/Transfer_learning)
 - [Domain adaptation](https://en.wikipedia.org/wiki/Domain_adaptation)
 
-![Domain adaptation](https://en.wikipedia.org/wiki/Domain_adaptation#/media/File:Transfer_learning_and_domain_adaptation.png)
+![Domain adaptation](https://upload.wikimedia.org/wikipedia/commons/1/11/Transfer_learning_and_domain_adaptation.png)
 
 ## 2. Characteristics of data
 
