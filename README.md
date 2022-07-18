@@ -16,7 +16,16 @@ Curently, there are two major challenges regarding training data: Volume and low
 
 > Approaches
 
-- Merge multiple data for training (Sharifi-Noghabi et al., 2019)
+- Merge multiple data for training : Multi-omics data analysis 
+  1. Early integration : Concatenate omics data, then learn features via autoencoders
+     - Disdavangages
+       1. Each omics' unique distribution is disregarded
+       2. Must be normalized appropriately
+       3. Dimention is increased      
+  2. Late integration : Learn features, then concatnate
+     - Avoid disadvantages of early integration method
+     - Ex) MOLI (Sharifi-Noghabi et al., 2019) : Somatic mutation, CNA, gene expression data were used for training. 
+
 - [Transfer learning](https://en.wikipedia.org/wiki/Transfer_learning)
 - [Domain adaptation](https://en.wikipedia.org/wiki/Domain_adaptation)
 
@@ -59,17 +68,17 @@ Typically, data frame consists of rows representing samples and columns represen
 
 ### Database for preclinical data
 
-| Database | Features | Label |
-| -------- | ---------- | ---------- |
+| Database | Samples | Features | Label |
+| -------- | ---------- | ---------- | ---------- |
 | Cancer Cell Line Encyclopedia (CCLE) | ? | ? |
-| [Genomics of Drug Sensitivity in Cancer (GDSC)](https://www.cancerrxgene.org/) | ? | [IC<sub>50</sub>](https://en.wikipedia.org/wiki/IC50) | 
-| Patient-Derived Xenografts (PDX) | ? | [RECIST](https://recist.eortc.org/) |
+| [Genomics of Drug Sensitivity in Cancer (GDSC)](https://www.cancerrxgene.org/) | Cell lines | ? | [IC<sub>50</sub>](https://en.wikipedia.org/wiki/IC50) | 
+| Patient-Derived Xenografts (PDX) | | ? | [RECIST](https://recist.eortc.org/) |
 
 ### Clinical data
 
-| Database | Features | Label |
-| -------- | ---------- | ---------- |
-| [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) | ? | ? |
+| Database | Samples | Features | Label |
+| -------- | ---------- | ---------- | ---------- |
+| [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) | Patiens | ? | ? |
 
 ## Common machine learning library
 
