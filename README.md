@@ -47,7 +47,7 @@ Curently, there are two major challenges regarding training data: Volume and low
 
 ### Label (class)
 
-- Drug sensitivity ([IC<sub>50</sub>]((https://en.wikipedia.org/wiki/IC50))) : Sensitive (1) or Resistant (0)
+- Drug sensitivity ([IC<sub>50</sub>](https://en.wikipedia.org/wiki/IC50)) : Sensitive (1) or Resistant (0)
 
 ## Public data for training
 
