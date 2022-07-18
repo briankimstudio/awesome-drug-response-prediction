@@ -20,7 +20,9 @@ Curently, there are two major challenges regarding training data: Volume and low
 - [Transfer learning](https://en.wikipedia.org/wiki/Transfer_learning)
 - [Domain adaptation](https://en.wikipedia.org/wiki/Domain_adaptation)
 
-![Domain adaptation](https://upload.wikimedia.org/wikipedia/commons/1/11/Transfer_learning_and_domain_adaptation.png)
+![Domain adaptation](https://upload.wikimedia.org/wikipedia/commons/1/11/Transfer_learning_and_domain_adaptation.png) 
+<p align="center">Source: wikipedia</p>
+
 
 ## 2. Characteristics of data
 
@@ -39,6 +41,8 @@ Curently, there are two major challenges regarding training data: Volume and low
 - The half-maximal inhibitory concentration ([IC<sub>50</sub>](https://en.wikipedia.org/wiki/IC50)): Amount of drug inhibiting biological component by 50%
 
 ## Type of data
+
+Typically, data frame consists of rows representing samples and columns representing features and label.
 
 ### Features
 - [Gene expression](https://en.wikipedia.org/wiki/Gene_expression)
