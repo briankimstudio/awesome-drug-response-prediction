@@ -8,16 +8,21 @@ To identify effective anti-cancer drug for patient by examinging each patient's 
 
 # Challenges
 
+## Volume of data
+
 - Lack of clinical data
-- Enormous features(several thousands)
+
+## Characteristics of data
+
+- Low ratio of samples to features: not ideal for Deep neural network(DNN)
 
 # Methods
 
 ## Data
 
-- GDSC
+- Genomics of drug sensitivity in cancer(GDSC)
 
-- PDX
+- Patient-derived xenografts(PDX)
 
 Machine learning
 
