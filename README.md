@@ -21,7 +21,7 @@ To identify effective anti-cancer drugs for patients by examining each patient's
 ## 2. Characteristics of data
 
 - Low ratio of samples to features: The number of features often exceeds 10,000. Thus, it is not ideal data set for Deep Neural Network (DNN).
-- Imbalanced classes: The number of samples in each class are extremly imbalanced. In general, the number of sensitive (1) is greater than the number of resistant (0).
+- Imbalanced classes: The number of samples in each class are extremly imbalanced. In general, the number of sensitive (1) is smaller than the number of resistant (0).
 
 > Approaches 
 
