@@ -39,6 +39,7 @@ Curently, there are two major challenges regarding training data: Volume and low
 
 ### Features
 - Gene expression
+- Mutations
 - Copy number alterations (CNA)
 - Epigenetic data
 - ...
