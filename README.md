@@ -38,10 +38,10 @@ Curently, there are two major challenges regarding training data: Volume and low
 ## Type of data
 
 ### Features
-- Gene expression
-- Mutations
-- Copy number alterations (CNA)
-- Epigenetic data
+- [Gene expression](https://en.wikipedia.org/wiki/Gene_expression)
+- [Mutations](https://www.genome.gov/genetics-glossary/Mutation)
+- [Copy number aberrations (CNA)](https://en.wikipedia.org/wiki/Copy_number_variation)
+- [Epigenetic data](https://en.wikipedia.org/wiki/Epigenetics)
 - ...
 
 ### Label (class)
@@ -55,24 +55,30 @@ Curently, there are two major challenges regarding training data: Volume and low
 | Database | Lable type |
 | -------- | ---------- |
 | Cancer Cell Line Encyclopedia (CCLE) | ? |
-| Genomics of Drug Sensitivity in Cancer (GDSC) | IC<sub>50</sub> |
-| Patient-Derived Xenografts (PDX) | RECIST |
+| [Genomics of Drug Sensitivity in Cancer (GDSC)](https://www.cancerrxgene.org/) | [IC<sub>50</sub>](https://en.wikipedia.org/wiki/IC50) |
+| Patient-Derived Xenografts (PDX) | [RECIST](https://recist.eortc.org/) |
 
 ### Clinical data
 
 | Database | Lable type |
 | -------- | ---------- |
-| The Cancer Genome Atlas (TCGA) | ? |
+| [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) | ? |
+
+## Common machine learning library
+
+- [PyTorch](https://pytorch.org/)
+- [Keras](https://keras.io/) / [Tensorflow](https://www.tensorflow.org/)
+- [scikit-learn](https://scikit-learn.org/stable/index.html)
 
 ## Machine learning algorithms
 
 Drug response prediction is a binary classification problem (sensitive or resistant). Therefore, any binary classifier can be used to estimate drug response.
 
-- kNN
-- SVM
-- Ridge logistic regression
-- Random forests
-- Neural network
+- [K-Nearest Neighbors (kNN)](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
+- [Support Vector Machine (SVM)](https://en.wikipedia.org/wiki/Support-vector_machine)
+- [Ridge Logistic Regression](https://scikit-learn.org/stable/modules/linear_model.html)
+- [Random Forests](https://en.wikipedia.org/wiki/Random_forest)
+- [Deep Neural Network (DNN)](https://en.wikipedia.org/wiki/Deep_learning)
 
 # References
 
