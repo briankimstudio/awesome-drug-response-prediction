@@ -8,6 +8,8 @@ To identify effective anti-cancer drugs for patients by examining each patient's
 
 # Challenges
 
+Curently, there are two major challenges regarding training data.
+
 ## 1. Volume of data
 
 - Lack of clinical data
