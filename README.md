@@ -53,17 +53,17 @@ Curently, there are two major challenges regarding training data: Volume and low
 
 ### Database for preclinical data
 
-| Database | Lable type |
-| -------- | ---------- |
-| Cancer Cell Line Encyclopedia (CCLE) | ? |
-| [Genomics of Drug Sensitivity in Cancer (GDSC)](https://www.cancerrxgene.org/) | [IC<sub>50</sub>](https://en.wikipedia.org/wiki/IC50) |
-| Patient-Derived Xenografts (PDX) | [RECIST](https://recist.eortc.org/) |
+| Database | Features | Label |
+| -------- | ---------- | ---------- |
+| Cancer Cell Line Encyclopedia (CCLE) | ? | ? |
+| [Genomics of Drug Sensitivity in Cancer (GDSC)](https://www.cancerrxgene.org/) | ? | [IC<sub>50</sub>](https://en.wikipedia.org/wiki/IC50) | 
+| Patient-Derived Xenografts (PDX) | ? | [RECIST](https://recist.eortc.org/) |
 
 ### Clinical data
 
-| Database | Lable type |
-| -------- | ---------- |
-| [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) | ? |
+| Database | Features | Label |
+| -------- | ---------- | ---------- |
+| [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) | ? | ? |
 
 ## Common machine learning library
 
