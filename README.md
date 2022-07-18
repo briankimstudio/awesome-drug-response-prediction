@@ -12,12 +12,13 @@ Curently, there are two major challenges regarding training data: Volume and low
 
 ## 1. Volume of data
 
-- Lack of clinical data
+- Lack of [cancer clinical data](https://docs.gdc.cancer.gov/Encyclopedia/pages/Clinical_Data/)
 
 > Approaches
 
 - Merge multiple data for training (Sharifi-Noghabi et al., 2019)
-- Transfer learning
+- [Transfer learning](https://en.wikipedia.org/wiki/Transfer_learning)
+- [Domain adaptation](https://en.wikipedia.org/wiki/Domain_adaptation)
 
 ## 2. Characteristics of data
 
@@ -26,8 +27,8 @@ Curently, there are two major challenges regarding training data: Volume and low
 
 > Approaches 
 
-- Feature engineering
-- Autoencoders: Feature extraction
+- [Feature engineering](https://en.wikipedia.org/wiki/Feature_engineering)
+- [Autoencoder](https://en.wikipedia.org/wiki/Autoencoder): Feature extraction
 
 # Methods
 
