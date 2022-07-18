@@ -34,7 +34,7 @@ Curently, there are two major challenges regarding training data: Volume and low
 
 ## Measurement
 
-- The half-maximal inhibitory concentration ([IC<sub>50</sub>]((https://en.wikipedia.org/wiki/IC50))): Amount of drug inhibiting biological component by 50%
+- The half-maximal inhibitory concentration ([IC<sub>50</sub>](https://en.wikipedia.org/wiki/IC50)): Amount of drug inhibiting biological component by 50%
 
 ## Type of data
 
