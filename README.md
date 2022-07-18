@@ -1,10 +1,10 @@
-# awesome-drug-response-prediction
+# Awesome Drug Response Prediction (ADRP)
 
-Resources for drug response prediction research
+The ADRP is a curated list of resources for drug response prediction research maintained by Brian.
 
 # Goal
 
-To identify effective anti-cancer drug for patient by examining each patient's gene level information using machine learning algorithm
+To identify effective anti-cancer drugs for patients by examining each patient's unique gene level information using machine learning algorithm.
 
 # Challenges
 
@@ -20,8 +20,8 @@ To identify effective anti-cancer drug for patient by examining each patient's g
 
 ## 2. Characteristics of data
 
-- Low ratio of samples to features: The number of features often exceeds 10,000. Thus, it is not ideal data set for Deep Neural Network (DNN)
-- Imbalanced classes: The number of samples in each class are extremly imbalanced. In general, the number of sensitive (1) is greater than the number of resistant (0)
+- Low ratio of samples to features: The number of features often exceeds 10,000. Thus, it is not ideal data set for Deep Neural Network (DNN).
+- Imbalanced classes: The number of samples in each class are extremly imbalanced. In general, the number of sensitive (1) is greater than the number of resistant (0).
 
 > Approaches 
 
