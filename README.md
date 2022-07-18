@@ -33,7 +33,7 @@ Curently, there are two major challenges regarding training data: Volume and low
 
 ## Measurement
 
-- The half-maximal inhibitory concentration (IC<sub>50</sub>): Amount of drug inhibiting biological component by 50%
+- The half-maximal inhibitory concentration ([IC<sub>50</sub>]((https://en.wikipedia.org/wiki/IC50))): Amount of drug inhibiting biological component by 50%
 
 ## Type of data
 
@@ -46,7 +46,7 @@ Curently, there are two major challenges regarding training data: Volume and low
 
 ### Label (class)
 
-- Drug sensitivity (IC<sub>50</sub>) : Sensitive (1) or Resistant (0)
+- Drug sensitivity ([IC<sub>50</sub>]((https://en.wikipedia.org/wiki/IC50))) : Sensitive (1) or Resistant (0)
 
 ## Public data for training
 
