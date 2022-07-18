@@ -12,7 +12,6 @@ To identify effective anti-cancer drugs for patients by examining each patient's
 
 - Lack of clinical data
 
-
 > Approaches
 
 - Merge multiple data for training (Sharifi-Noghabi et al., 2019)
