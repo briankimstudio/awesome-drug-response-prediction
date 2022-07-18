@@ -20,6 +20,8 @@ Curently, there are two major challenges regarding training data: Volume and low
 - [Transfer learning](https://en.wikipedia.org/wiki/Transfer_learning)
 - [Domain adaptation](https://en.wikipedia.org/wiki/Domain_adaptation)
 
+![Domain adaptation](https://en.wikipedia.org/wiki/Domain_adaptation#/media/File:Transfer_learning_and_domain_adaptation.png)
+
 ## 2. Characteristics of data
 
 - Low ratio of samples to features: The number of features often exceeds 10,000. Thus, it is not ideal data set for Deep Neural Network (DNN).
