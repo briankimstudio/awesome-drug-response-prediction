@@ -50,7 +50,7 @@ Currently, there are two major challenges regarding training data: 1) Volume, 2)
 ## 3. Gap between _in vitro_ and _in vivo_
 
 - Whereas training data are from cell lines or animal models(PDX), test data are from patiens. And there is difference between these two types of data.
-- The difference is caused by batch effect according to research articles.
+- According to research articles, the difference is caused by batch effect.
 
 > Approaches
  
