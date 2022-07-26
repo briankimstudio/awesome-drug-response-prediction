@@ -8,7 +8,7 @@ To identify effective anti-cancer drugs for patients by examining each patient's
 
 # Challenges
 
-Currently, there are two major challenges regarding training data: Volume and low ratio of samples to features (LRSF)
+Currently, there are two major challenges regarding training data: 1) Volume, 2) low ratio of samples to features (LRSF), and 3) Difference between _in vitro_ and _in vivo_.
 
 ## 1. Volume of data
 
@@ -17,6 +17,9 @@ Currently, there are two major challenges regarding training data: Volume and lo
 > Approaches
 
 - Merge multiple data for training : Multi-omics data analysis 
+
+  Regarding when to merge multi-omics data for training, there are two different ways.
+
   1. Early integration : Concatenate omics data, then learn features via autoencoders
      - Disdavangages
        1. Each omics' unique distribution is disregarded
@@ -32,16 +35,26 @@ Currently, there are two major challenges regarding training data: Volume and lo
 ![Domain adaptation](https://upload.wikimedia.org/wikipedia/commons/1/11/Transfer_learning_and_domain_adaptation.png) 
 <p align="center">Source: wikipedia</p>
 
-
 ## 2. Characteristics of data
 
-- Low ratio of samples to features: The number of features often exceeds 10,000. Thus, it is not ideal data set for Deep Neural Network (DNN).
+- High dimensionality
+- Low ratio of samples to features: The number of features often exceeds 10,000 while the number of samples is around 800. Thus, it is not ideal data set for Deep Neural Network (DNN).
 - Imbalanced classes: The number of samples in each class are extremly imbalanced. In general, the number of sensitive (1) is smaller than the number of resistant (0).
 
 > Approaches 
 
+- Multi-task learning (MTL)
 - [Feature engineering](https://en.wikipedia.org/wiki/Feature_engineering)
 - [Autoencoder](https://en.wikipedia.org/wiki/Autoencoder): Feature extraction
+
+## 3. Gap between _in vitro_ and _in vivo_
+
+- Whereas training data are from cell lines or animal models(PDX), test data are from patiens. And there is difference between these two types of data.
+- The difference is caused by batch effect according to research articles.
+
+> Approaches
+ 
+- Domain adaptation (DA)
 
 # Methods
 
