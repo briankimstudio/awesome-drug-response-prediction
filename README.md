@@ -8,9 +8,9 @@ To identify effective anti-cancer drugs for patients by examining each patient's
 
 # Challenges
 
-Currently, there are two major challenges regarding training data: 1) Volume, 2) low ratio of samples to features (LRSF), and 3) Difference between _in vitro_ and _in vivo_.
+Currently, there are three major challenges regarding training data: 1) Scarcity, 2) Low ratio of samples to features (LRSF), and 3) Heterogeneity
 
-## 1. Volume of data
+## 1. Scarcity: Volume of data
 
 - Lack of [cancer clinical data](https://docs.gdc.cancer.gov/Encyclopedia/pages/Clinical_Data/)
 
@@ -47,7 +47,7 @@ Currently, there are two major challenges regarding training data: 1) Volume, 2)
 - [Feature engineering](https://en.wikipedia.org/wiki/Feature_engineering)
 - [Autoencoder](https://en.wikipedia.org/wiki/Autoencoder): Feature extraction
 
-## 3. Gap between _in vitro_ and _in vivo_
+## 3. Heterogeneity: Difference between _in vitro_ and _in vivo_.
 
 - Whereas training data are from cell lines or animal models(PDX), test data are from patiens. And there is difference between these two types of data.
 - According to research articles, the difference is caused by batch effect.
